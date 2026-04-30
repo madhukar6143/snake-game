@@ -50,4 +50,4 @@ app.post('/highscore', async (req, res) => {
 
 app.get('/', (req, res) => res.send('Snake High Score Server running!'));
 
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
